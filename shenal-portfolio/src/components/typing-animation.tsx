@@ -12,9 +12,9 @@ interface TypingAnimationProps {
 
 export function TypingAnimation({
   texts,
-  speed = 100,
+  speed = 50,
   deleteSpeed = 50,
-  pauseTime = 2000,
+  pauseTime = 4000,
   className = "",
 }: TypingAnimationProps) {
   const [currentTextIndex, setCurrentTextIndex] = useState(0)

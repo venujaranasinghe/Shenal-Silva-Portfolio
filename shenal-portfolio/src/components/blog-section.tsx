@@ -50,7 +50,7 @@ export function BlogSection() {
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-6">Latest Articles</h2>
+          <h2 className="text-5xl font-bold mb-6 text-white">Latest Articles</h2>
           <p className="text-gray-400 text-xl max-w-3xl mx-auto leading-relaxed">
             Sharing my knowledge and insights about web development, programming, and the latest tech trends.
           </p>
@@ -93,7 +93,7 @@ export function BlogSection() {
                     </div>
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-4 group-hover:text-purple-400 transition-colors">
+                <h3 className="text-2xl font-bold mb-4 text-white group-hover:text-purple-400 transition-colors">
                   {blogPosts[0].title}
                 </h3>
                 <p className="text-gray-400 leading-relaxed mb-6">{blogPosts[0].excerpt}</p>
@@ -121,7 +121,7 @@ export function BlogSection() {
                       <span>{post.date}</span>
                     </div>
                   </div>
-                  <h4 className="font-bold mb-2 group-hover:text-purple-400 transition-colors line-clamp-2">
+                  <h4 className="font-bold mb-2 text-white group-hover:text-purple-400 transition-colors line-clamp-2">
                     {post.title}
                   </h4>
                   <p className="text-gray-400 text-sm leading-relaxed mb-4 line-clamp-3">{post.excerpt}</p>

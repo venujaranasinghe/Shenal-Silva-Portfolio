@@ -9,9 +9,11 @@ export function CurrentStatus() {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold mb-6">What I'm Up To</h2>
-          <p className="text-gray-400 text-xl max-w-3xl mx-auto leading-relaxed">
+        <div className="text-center mb-16 relative z-10">
+          <h2 className="text-5xl font-bold mb-6 text-white/90 [text-shadow:_0_1px_4px_rgb(0_0_0_/_40%)]">
+            What I'm Up To
+          </h2>
+          <p className="text-gray-300/80 text-xl max-w-3xl mx-auto leading-relaxed">
             Here's what's keeping me busy these days - from studies to projects and everything in between.
           </p>
         </div>
@@ -27,7 +29,7 @@ export function CurrentStatus() {
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-xl font-bold">Studying Computer Science</h3>
+                      <h3 className="text-xl font-bold text-white">Studying Computer Science</h3>
                       <Badge className="bg-green-600/20 text-green-400 border-green-600/30">Active</Badge>
                     </div>
                     <p className="text-gray-400 mb-3">
@@ -57,7 +59,7 @@ export function CurrentStatus() {
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-xl font-bold">Freelance Development</h3>
+                      <h3 className="text-xl font-bold text-white">Freelance Development</h3>
                       <Badge className="bg-purple-600/20 text-purple-400 border-purple-600/30">Ongoing</Badge>
                     </div>
                     <p className="text-gray-400 mb-3">
@@ -87,7 +89,7 @@ export function CurrentStatus() {
                   </div>
                   <div className="flex-1">
                     <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-xl font-bold">Open Source Contributions</h3>
+                      <h3 className="text-xl font-bold text-white">Open Source Contributions</h3>
                       <Badge className="bg-green-600/20 text-green-400 border-green-600/30">Contributing</Badge>
                     </div>
                     <p className="text-gray-400 mb-3">
@@ -107,14 +109,14 @@ export function CurrentStatus() {
           <div className="space-y-6">
             <Card className="bg-gray-900/30 border-gray-800/50 backdrop-blur-xl">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-6">Currently Learning</h3>
+                <h3 className="text-2xl font-bold mb-6 text-white">Currently Learning</h3>
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center text-xs font-bold">
+                      <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg flex items-center justify-center text-xs font-bold text-white">
                         TS
                       </div>
-                      <span className="font-medium">Advanced TypeScript</span>
+                      <span className="font-medium text-gray-300">Advanced TypeScript</span>
                     </div>
                     <div className="w-24 bg-gray-800 rounded-full h-2">
                       <div className="bg-gradient-to-r from-blue-500 to-cyan-500 h-2 rounded-full w-3/4"></div>
@@ -122,10 +124,10 @@ export function CurrentStatus() {
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-xs font-bold">
+                      <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-xs font-bold text-white">
                         AI
                       </div>
-                      <span className="font-medium">Machine Learning</span>
+                      <span className="font-medium text-gray-300">Machine Learning</span>
                     </div>
                     <div className="w-24 bg-gray-800 rounded-full h-2">
                       <div className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full w-1/2"></div>
@@ -133,10 +135,10 @@ export function CurrentStatus() {
                   </div>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-3">
-                      <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg flex items-center justify-center text-xs font-bold">
+                      <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-teal-500 rounded-lg flex items-center justify-center text-xs font-bold text-white">
                         GO
                       </div>
-                      <span className="font-medium">Golang</span>
+                      <span className="font-medium text-gray-300">Golang</span>
                     </div>
                     <div className="w-24 bg-gray-800 rounded-full h-2">
                       <div className="bg-gradient-to-r from-green-500 to-teal-500 h-2 rounded-full w-1/3"></div>
@@ -148,7 +150,7 @@ export function CurrentStatus() {
 
             <Card className="bg-gray-900/30 border-gray-800/50 backdrop-blur-xl">
               <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-6">2024 Goals</h3>
+                <h3 className="text-2xl font-bold mb-6 text-white">2024 Goals</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
@@ -176,11 +178,11 @@ export function CurrentStatus() {
 
             <Card className="bg-gradient-to-r from-purple-600/10 to-pink-600/10 border-purple-600/30 backdrop-blur-xl">
               <CardContent className="p-8 text-center">
-                <h3 className="text-xl font-bold mb-4">Available for New Projects</h3>
+                <h3 className="text-xl font-bold mb-4 text-white">Available for New Projects</h3>
                 <p className="text-gray-400 mb-6">
                   I'm currently accepting new freelance projects and collaboration opportunities.
                 </p>
-                <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700">
+                <Button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white">
                   Let's Work Together
                 </Button>
               </CardContent>

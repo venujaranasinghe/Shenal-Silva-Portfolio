@@ -1,10 +1,15 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { Delius } from 'next/font/google' // This is similar to Alumni Sans SC
+
+const delius = Delius({
+  weight: ['400'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Shenal Silva',
 }
 
 export default function RootLayout({
@@ -14,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={delius.className}>{children}</body>
     </html>
   )
 }
