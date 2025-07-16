@@ -63,6 +63,7 @@ npm run dev</code></pre>
 
   <h2>📬 Contact</h2>
   <p>Created with ❤️ by <a href="https://github.com/venujaranasinghe" target="_blank">Venuja Ranasinghe</a></p>
+  <p>Live Demo <a href="https://shenal-silva-portfolio.vercel.app/"> </p>
 
   <p>Connect with Shenal:</p>
   <ul>
